@@ -11,7 +11,9 @@
  */
 
 function ternaryOperator(age) {
-  let data = "";
+  let data = 10 <= age && 20 > age ? "10대" 
+  : 20 <= age && 30 > age ? "20대" 
+  : 30 <= age && 40 > age ? "30대" : "";
   // TODO: 삼항연산자를 사용해 data 변수에 알맞은 값을 할당하세요.
 
   return data;
