@@ -15,10 +15,18 @@ const price = 1000;
 const quantity = 3;
 let total;
 
+calcTotal (price, quantity) {
+    return total=price * quantity
+};
+
 const age = 19;
 const hasLicense = true;
 let canDriveResult;
 let adultResult;
+
+canDrive(age, hasLicense) {
+
+}
 
 // export 를 수정하지 마세요.
 export { total, canDriveResult, adultResult };

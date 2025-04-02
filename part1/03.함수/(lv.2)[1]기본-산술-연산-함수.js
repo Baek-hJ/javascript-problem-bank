@@ -10,13 +10,22 @@
  * @returns {number}
  */
 
-// TODO: 함수 이름이 add 인 함수를 작성하세요.
+const add = function (x, y) {
+    return x+y
+}
 
 // TODO: 함수 이름이 subtract 인 함수를 작성하세요.
-
+function subtract (x, y) {
+    return x-y
+}
 // TODO: 함수 이름이 multiply 인 함수를 작성하세요.
+const multiply = function (x, y) {
+    return x*y
+}
 
 // TODO: 함수 이름이 divide 인 함수를 작성하세요.
-
+function divide (x, y) {
+    return x/y
+}
 // export 를 수정하지 마세요.
 export { add, subtract, multiply, divide };
