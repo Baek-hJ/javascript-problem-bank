@@ -11,7 +11,7 @@
  */
 
 function greet(name) {
-  return "Hello, {name}"
+  return `Hello, ${name}`
 }
 
 // export 를 수정하지 마세요.
